@@ -84,7 +84,6 @@ public class Route66 {
 		
 	}
 	// the following method is not required by the problem, but it provides user-friendly details about the race
-	
 	public String getRaceDetails() {
 		String info = "Route66 distance: " + ROUTE_LENGTH + "km. One cyclist max time block can cycle: " +
 				MAX_TIME_BLOCK_CONTINOUS_CYCLE + " hours with average speed " + 
