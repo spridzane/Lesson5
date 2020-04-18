@@ -22,6 +22,13 @@ public class Teams {
 	
     //constructor
 	
+	public Teams() {
+		numberOfStudents = 0;
+		teamSize = 0;
+		numOfTeams = 0;
+		remainings = 0;
+	}
+	
 	//constructor taking in two parameters numberStudents, teamSize
 	
 	public Teams(int numStudents, int tSize) {

@@ -22,6 +22,7 @@ public class TeamsApp {
         //declare a variable called input and create an object of type Scanner
 		
 		Scanner input = new Scanner(System.in);
+		Teams myTeams = new Teams();
         //input "Please enter the number of students: "
         //input "Please enter the size of the groups: "
 		System.out.println("Please enter the number of students: ");
@@ -29,7 +30,7 @@ public class TeamsApp {
 		System.out.println("Please enter the size of the groups: ");
 		sizeOfTeam = input.nextInt();
         // declare a variable called myTeams to be able to work with an object of type Teams and create an object of type Teams
-		Teams myTeams = new Teams(numOfStudents, sizeOfTeam);
+	
 		 // call/invoke the setter method to assign the value provided by the user
         // set/update the value of the object's instance variable called numberOfStudents with the value provided from the keyboard
 		myTeams.setNumberStudents(numOfStudents);
